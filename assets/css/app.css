@@ -1,8 +1,11 @@
 html,body { margin: 0; padding: 0; background: #FFF; font-size: 12px; font-family: 'Roboto', sans-serif; }
 
-body { background: url('../img/blue-1142743.jpg') no-repeat center center transparent; background-size: cover; }
-header { position: relative;	background: rgba(0,0,0,0.3); padding: 0.5rem 1rem; display: flex; flex-flow: row nowrap; justify-content: center; align-items: center; }
+body { background: url('../img/blue-1142743.jpg'); background-size: cover; background-repeat: no-repeat; background-color: transparent; background-position: fixed; min-height: 100vh;}
+
+header { position: relative;	background: rgba(0,0,0,0.6); padding: 0.5rem 1rem; display: flex; flex-flow: row nowrap; justify-content: center; align-items: center; }
 img { max-width: 100%; max-height: 100%; }
 
-.logo { display: inline-block; max-width: 200px; max-height: 200px; margin: 0 2rem; position: relative; }
-a.right-link { text-decoration: none; font-size: 2rem; text-transform: uppercase; font-weight: bold; color: #FFF; }
+.logo { display: block; max-width: 200px; max-height: 100px; margin: 0 2rem; position: relative; }
+.logo a {	display: block;	max-width: 100%; max-height: 100%;position: relative; text-decoration: none; }
+a.right-link { text-decoration: none; font-size: 2rem; text-transform: uppercase; font-weight: bold; color: #FFF; transition: color 0.5s ease; }
+a.right-link:hover { color: #ccc; }
