@@ -1,5 +1,5 @@
 
-.page-wrap { position: relative; padding: 0 2rem; margin: 0; clear: both;	float: left; width: 100%; box-sizing: border-box;	height: calc(100% - 120px); background: rgba(255,255,255,0.9); }
+.page-wrap { position: relative; padding: 0 2rem; margin: 0; clear: both;	float: left; width: 100%; box-sizing: border-box;	height: calc(100% - 120px); }
 .page-wrap > div, .page-wrap > aside { box-sizing: border-box; }
 .left-col { position: relative; float: left; display: block; padding: 1rem 0.5rem 0; width: 25%; }
 .main-content {	position: relative;	display: block;	float: left; width: 75%; }
