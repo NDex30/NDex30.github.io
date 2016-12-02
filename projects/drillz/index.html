@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>Drillz Menu Demo</title>
+		<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css' />
+		<link href="css/drillz.css" rel="stylesheet" type="text/css" />
+		<link href="css/app.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<header id="header">
+			<div class="header-row">
+				<div class="logo">
+					<a href="https://github.com/NDex30"><img width="100px" height="100px" src="img/ndex_logo.png" /></a>
+				</div>
+				<div class="title">
+					<h1>Drillz</h1>
+				</div>
+			</div>
+		</header>
+		<div class="page-wrap">
+			<aside class="left-col">
+					<nav id="cat-nav" class="drill-menu drillz" data-drillz-options="{resizeSpeed : 400}">
+						<nav class="single-line-menu breadcrumbs"><a data-menu-open="main">Top</a></nav>
+						<div id="drilldown-wrap" class="menuz">
+							<ul class="drillz-top drillz-active" data-drillz-menu="main">
+								<li class="nav-item">
+									<a href="#" data-drillz-menu="submenu-244" class="nav-link has-submenu">Apparel<span class="drilldown"><i class="fa fa-ellipsis-h"></i></span></a>
+									<ul class="drillz-sub-level" data-drillz-menu="submenu-244">
+										<li class="nav-item">
+											<a href="#" class="nav-link">Pants</a>
+										</li>
+										<li class="nav-item">
+											<a href="#" data-drillz-menu="submenu-244-245" class="nav-link has-submenu">Shirts<span class="drilldown"><i class="fa fa-ellipsis-h"></i></span></a>
+											<ul class="drillz-sub-level" data-drillz-menu="submenu-244-245">
+												<li class="nav-item">
+													<a href="#" class="nav-link">Long Sleeve</a>
+												</li>
+												<li class="nav-item">
+													<a href="#" class="nav-link">T-Shirts</a>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+								<li class="nav-item">
+									<a href="#" data-drillz-menu="submenu-3" class="nav-link has-submenu">Books<span class="drilldown"><i class="fa fa-ellipsis-h"></i></span></a>
+									<ul class="drillz-sub-level" data-drillz-menu="submenu-3">
+										<li class="nav-item">
+											<a href="#" class="nav-link">Hardbacked</a>
+										</li>
+										<li class="nav-item">
+											<a href="#" class="nav-link">Paperback</a>
+										</li>
+									</ul>
+								</li>
+								<li class="nav-item">
+									<a href="#" class="nav-link">Toys</a>
+								</li>
+								<li class="nav-item">
+									<a href="#" data-drillz-menu="submenu-251" class="nav-link has-submenu">REALLY LONG NAME FOR A CATEGORY<span class="drilldown"><i class="fa fa-ellipsis-h"></i></span></a>
+									<ul class="drillz-sub-level" data-drillz-menu="submenu-251">
+										<li class="nav-item">
+											<a href="#" class="nav-link">Just a sub</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</nav>
+			</aside>
+			<div class="main-content">
+				<section id="main">
+					<h1>Content</h1>
+				</section>
+			</div>
+		</div>
+		<script src="https://use.fontawesome.com/5dcb780ad7.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+		<script type="text/javascript" src="js/drillz.js"></script>
+		<script type="text/javascript">
+			var menu1 = new Drillz(document.getElementById('cat-nav'),{});
+		</script
+	</body>
+</html>
