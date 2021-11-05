@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="170" height="54" viewBox="0 0 170 54">
+  <g id="Group_260" data-name="Group 260" transform="translate(1094 -6900)">
+    <rect id="Rectangle" width="170" height="54" rx="27" transform="translate(-1094 6900)" fill="#fff"/>
+    <g id="Group_259" data-name="Group 259">
+      <text id="App_Store" data-name="App Store" transform="translate(-1043 6938)" font-size="16" font-family="Poppins-Bold, Poppins" font-weight="700" letter-spacing="0.037em"><tspan x="0" y="0">App Store</tspan></text>
+      <text id="Get_it_on" data-name="Get it on" transform="translate(-1043 6923)" font-size="12" font-family="Poppins-Regular, Poppins" letter-spacing="0.035em"><tspan x="0" y="0">Get it on</tspan></text>
+    </g>
+    <path id="Icon_awesome-app-store" data-name="Icon awesome-app-store" d="M17.993,8.5l.64-1.1a1.436,1.436,0,0,1,2.489,1.434L14.97,19.484H19.42a1.97,1.97,0,0,1,1.624,2.869H8a1.434,1.434,0,0,1,0-2.869h3.656l4.683-8.114L14.878,8.831A1.436,1.436,0,0,1,17.367,7.4l.626,1.1ZM12.459,23.829,11.081,26.22a1.436,1.436,0,1,1-2.489-1.434l1.027-1.772a2.45,2.45,0,0,1,2.841.816Zm11.876-4.338h3.734a1.434,1.434,0,1,1,0,2.869H25.995l1.4,2.426A1.436,1.436,0,1,1,24.9,26.22q-3.533-6.128-5.3-9.183a3.961,3.961,0,0,1,.506-4.859q1.413,2.426,4.226,7.313ZM18,.563A17.438,17.438,0,1,0,35.438,18,17.434,17.434,0,0,0,18,.563ZM33.188,18A15.188,15.188,0,1,1,18,2.813,15.187,15.187,0,0,1,33.188,18Z" transform="translate(-1085.331 6909.438)"/>
+  </g>
+</svg>
